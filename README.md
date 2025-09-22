@@ -1,9 +1,9 @@
-# 🏚 Ananda Nilayam _Gated-Community😄
-
+🏚 Ananda Nilayam _Gated-Community 😄
 
 🏢 Gated Community - Complaint Tracker Application 🛠️
 
-Welcome to the Complaint Tracker Application, a web-based system developed using Java Servlets, JSP, MySQL, and Apache Tomcat. This project is designed to streamline the complaint management process in apartment complexes, ensuring that issues are logged, tracked, and resolved efficiently.
+Welcome to the Complaint Tracker Application, a web-based system developed using Java Servlets, JSP, MySQL, and Apache Tomcat.
+This project is designed to streamline the complaint management process in apartment complexes, ensuring that issues are logged, tracked, and resolved efficiently.
 
 🎯 Objective
 
@@ -51,7 +51,7 @@ Session Management – Secure login/logout and user tracking.
 Exception Handling – Robust error handling for smooth user experience.
 
 📂 Project Structure
-ComplaintTracker/
+AnandaNilayam/
 ├── src/
 │   ├── com/resident/      # Resident-related classes
 │   ├── com/admin/         # Admin-related classes
@@ -61,7 +61,7 @@ ComplaintTracker/
 │   ├── views/             # JSP files (UI for residents/admins)
 │   ├── assets/            # CSS, JS, Images
 ├── database/
-│   └── complaint_db.sql   # MySQL schema and tables
+│   └── anand_nilayam.sql  # MySQL schema and tables
 ├── .classpath
 ├── .project
 ├── README.md
@@ -77,42 +77,38 @@ Server: Apache Tomcat
 Database Connectivity: JDBC
 
 ⚙️ How to Run
+1. Clone the Repository
+git clone https://github.com/yourusername/Ananda-Nilayam.git
+cd Ananda-Nilayam
 
-Clone the Repository
-
-git clone https://github.com/yourusername/complaint-tracker.git
-cd complaint-tracker
-
-
-Setup Database
+2. Setup Database
 
 Create MySQL database:
 
-CREATE DATABASE complaint_db;
+CREATE DATABASE ananda_nilayam;
 
 
-Import the complaint_db.sql file.
+Import the ananda_nilayam.sql file.
 
-Configure JDBC
+3. Configure JDBC
 
 Update your DB credentials in DBConnection.java:
 
-String url = "jdbc:mysql://localhost:3306/complaint_db";
+String url = "jdbc:mysql://localhost:3306/ananda_nilayam";
 String username = "root";
 String password = "yourpassword";
 
-
-Deploy on Tomcat
+4. Deploy on Tomcat
 
 Copy the project to Tomcat’s webapps folder.
 
 Start Tomcat server.
 
-Access the Application
+5. Access the Application
 
 Open in browser:
 
-http://localhost:8080/complaint-tracker
+http://localhost:8080/Ananda-Nilayam
 
 🚀 Future Enhancements
 
@@ -136,8 +132,8 @@ Submit a pull request 🚀
 
 👤 Author
 
-Your Name:Balaji-Rasani
+Your Name: Balaji-Rasani
 
-GitHub: https://github.com/Balaji-Rasani
+GitHub: Balaji-Rasani
 
 Email: rasanibalaji74@gmail.com
