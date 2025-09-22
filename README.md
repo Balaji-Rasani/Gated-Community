@@ -84,7 +84,7 @@ Database Connectivity: JDBC
 
 ## ⚙️ How to Run
 1. Clone the Repository
-git clone https://github.com/yourusername/Ananda-Nilayam.git
+git clone https://github.com/Balaji-Rasani/Ananda-Nilayam.git
 cd Ananda-Nilayam
 ---
 2. Setup Database
