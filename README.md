@@ -103,7 +103,7 @@ Update your DB credentials in DBConnection.java:
 
 String url = "jdbc:mysql://localhost:3306/ananda_nilayam";
 String username = "root";
-String password = "yourpassword";
+String password = "root";
 --- 
 
 4. Deploy on Tomcat
