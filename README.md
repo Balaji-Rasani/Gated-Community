@@ -1,12 +1,12 @@
 # 🏚 Ananda Nilayam _Gated-Community 😄
 
-🏢 Gated Community - Complaint Tracker Application 🛠️
+## 🏢 Gated Community - Complaint Tracker Application 🛠️
 
 Welcome to the Complaint Tracker Application, a web-based system developed using Java Servlets, JSP, MySQL, and Apache Tomcat.
 This project is designed to streamline the complaint management process in apartment complexes, ensuring that issues are logged, tracked, and resolved efficiently.
 ---
 
-🎯 Objective
+## 🎯 Objective
 
 The goal is to:
 
@@ -17,8 +17,9 @@ The goal is to:
 🛠️ Enable administrators to manage, assign, and resolve complaints effectively.
 
 📊 Improve transparency and accountability within gated communities.
+---
 
-👨‍💻 Features
+## 👨‍💻 Features
 👨‍👩‍👧 Resident Functionalities
 
 ✅ Register & Login – Residents can sign up and log in securely.
@@ -31,7 +32,7 @@ The goal is to:
 
 ✅ Complaint History – Access past complaints and resolutions.
 
-🛠️ Admin Functionalities
+## 🛠️ Admin Functionalities
 
 ✅ View All Complaints – Monitor complaints submitted by residents.
 
@@ -40,8 +41,9 @@ The goal is to:
 ✅ Assign Complaints – Assign staff/maintenance workers for resolution.
 
 ✅ Generate Reports – Track complaint resolution times and trends.
+---
 
-🧠 Concepts Demonstrated
+## 🧠 Concepts Demonstrated
 
 JDBC Connectivity – Handling database operations between Java and MySQL.
 
@@ -50,8 +52,9 @@ MVC Architecture – Separation of concerns using Servlets (Controller), JSP (Vi
 Session Management – Secure login/logout and user tracking.
 
 Exception Handling – Robust error handling for smooth user experience.
+---
 
-📂 Project Structure
+## 📂 Project Structure
 AnandaNilayam/
 ├── src/
 │   ├── com/resident/      # Resident-related classes
@@ -66,8 +69,9 @@ AnandaNilayam/
 ├── .classpath
 ├── .project
 ├── README.md
+---
 
-🏗️ Tech Stack
+## 🏗️ Tech Stack
 
 Backend: Java Servlets, JSP
 
@@ -76,12 +80,13 @@ Database: MySQL
 Server: Apache Tomcat
 
 Database Connectivity: JDBC
+--- 
 
-⚙️ How to Run
+## ⚙️ How to Run
 1. Clone the Repository
 git clone https://github.com/yourusername/Ananda-Nilayam.git
 cd Ananda-Nilayam
-
+---
 2. Setup Database
 
 Create MySQL database:
@@ -90,6 +95,7 @@ CREATE DATABASE ananda_nilayam;
 
 
 Import the ananda_nilayam.sql file.
+--- 
 
 3. Configure JDBC
 
@@ -98,20 +104,22 @@ Update your DB credentials in DBConnection.java:
 String url = "jdbc:mysql://localhost:3306/ananda_nilayam";
 String username = "root";
 String password = "yourpassword";
+--- 
 
 4. Deploy on Tomcat
 
 Copy the project to Tomcat’s webapps folder.
 
 Start Tomcat server.
-
+---
 5. Access the Application
 
 Open in browser:
 
 http://localhost:8080/Ananda-Nilayam
+--- 
 
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 🔔 Email / SMS notifications for updates.
 
@@ -120,8 +128,8 @@ http://localhost:8080/Ananda-Nilayam
 📊 Analytics dashboard for admins.
 
 👥 Role-based access control (Residents, Admins, Staff).
-
-🤝 Contributing
+---
+## 🤝 Contributing
 
 Found a bug or want to suggest a new feature?
 
@@ -130,8 +138,9 @@ Fork the repo
 Create your feature branch
 
 Submit a pull request 🚀
+---
 
-👤 Author
+## 👤 Author
 
 Your Name: Balaji-Rasani
 
