@@ -4,6 +4,7 @@
 
 Welcome to the Complaint Tracker Application, a web-based system developed using Java Servlets, JSP, MySQL, and Apache Tomcat.
 This project is designed to streamline the complaint management process in apartment complexes, ensuring that issues are logged, tracked, and resolved efficiently.
+---
 
 🎯 Objective
 
