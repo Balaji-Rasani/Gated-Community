@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ananda Nilayam</title>
+    <style>
+       body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('images/hm.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: #fffde7; /* soft warm background */
+            padding: 40px 50px;
+            border-radius: 25px;
+            border: 2px solid brown; /* ✅ changed border to brown */
+            box-shadow: 0 8px 20px rgba(128, 128, 128, 0.3); /* gray shadow */
+            text-align: center;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        h2.welcome {
+            color: #1b5e20; /* darker green for "Welcome to" */
+            font-size: 42px;
+            white-space: nowrap;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* subtle shadow */
+            letter-spacing: 1px; /* slight spacing for elegance */
+        }
+
+        h2.welcome .icon {
+            margin-right: 10px;
+        }
+
+        h2.welcome .ananda {
+            font-weight: bold;
+            background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-left: 8px;
+        }
+
+        h2.welcome .emoji {
+            margin-left: 10px;
+        }
+
+        h3 {
+            color: #0277bd;
+            font-size: 22px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: block;
+            width: 20%;
+            margin: 10px auto;
+            padding: 15px;
+            font-size: 18px;
+            border: none;
+            border-radius: 30px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: #01579b;
+        }
+
+        .marquee-text {
+            font-weight: bold;
+            font-size: 24px;
+            margin: 0;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+            display: inline;
+        }
+
+        .marquee-gradient {
+            background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="welcome">
+            <span class="icon">🏡</span>
+            Welcome to
+            <span class="ananda">Ananda Nilayam</span>
+            <span class="emoji">😊</span>
+        </h2>
+
+        <marquee behavior="scroll" direction="left" scrollamount="20">
+            <h2 class="marquee-text">
+                <span>📋</span>
+                <span class="marquee-gradient">Complaint Tracking Web Application for Residents</span>
+            </h2>
+        </marquee>
+
+        <h3>🔐 Please choose your login type</h3>
+
+        <a href="residentlogin.jsp" class="btn"><span class="emoji">👤</span><b>Resident Login</b></a>
+        <a href="adminlogin.jsp" class="btn"><span class="emoji">🛠️</span><b>Admin Login</b></a>
+    </div>
+
+</body>
+</html>
